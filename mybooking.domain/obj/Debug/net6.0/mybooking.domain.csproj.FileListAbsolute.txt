@@ -1,0 +1,12 @@
+D:\Dev\TeamProject\mybooking\mybooking.domain\bin\Debug\net6.0\mybooking.domain.deps.json
+D:\Dev\TeamProject\mybooking\mybooking.domain\bin\Debug\net6.0\mybooking.domain.dll
+D:\Dev\TeamProject\mybooking\mybooking.domain\bin\Debug\net6.0\mybooking.domain.pdb
+D:\Dev\TeamProject\mybooking\mybooking.domain\obj\Debug\net6.0\mybooking.domain.csproj.AssemblyReference.cache
+D:\Dev\TeamProject\mybooking\mybooking.domain\obj\Debug\net6.0\mybooking.domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\TeamProject\mybooking\mybooking.domain\obj\Debug\net6.0\mybooking.domain.AssemblyInfoInputs.cache
+D:\Dev\TeamProject\mybooking\mybooking.domain\obj\Debug\net6.0\mybooking.domain.AssemblyInfo.cs
+D:\Dev\TeamProject\mybooking\mybooking.domain\obj\Debug\net6.0\mybooking.domain.csproj.CoreCompileInputs.cache
+D:\Dev\TeamProject\mybooking\mybooking.domain\obj\Debug\net6.0\mybooking.domain.dll
+D:\Dev\TeamProject\mybooking\mybooking.domain\obj\Debug\net6.0\refint\mybooking.domain.dll
+D:\Dev\TeamProject\mybooking\mybooking.domain\obj\Debug\net6.0\mybooking.domain.pdb
+D:\Dev\TeamProject\mybooking\mybooking.domain\obj\Debug\net6.0\ref\mybooking.domain.dll
