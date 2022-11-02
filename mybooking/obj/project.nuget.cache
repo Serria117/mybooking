@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Y4Gn7qho8/Wzc8805mr3/lyt3C5gwaWil+MS0OedDps77bhxdmzE/AOcFY+3Rzlbkfcw6sVEm9BasWsriyuxoA==",
+  "dgSpecHash": "HP+faBh3lyAhskLQEEeq54lNZS3RdxVPuDuBl/yOlgZS+snRocL9iy1qaGovrdmj3Ss172dKVuYaYJ3MDZFpkA==",
   "success": true,
   "projectFilePath": "D:\\Dev\\TeamProject\\mybooking\\mybooking\\mybooking.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\hadt2\\.nuget\\packages\\azure.security.keyvault.certificates\\4.1.0\\azure.security.keyvault.certificates.4.1.0.nupkg.sha512",
     "C:\\Users\\hadt2\\.nuget\\packages\\azure.security.keyvault.secrets\\4.1.0\\azure.security.keyvault.secrets.4.1.0.nupkg.sha512",
     "C:\\Users\\hadt2\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\hadt2\\.nuget\\packages\\jetbrains.annotations\\2022.1.0\\jetbrains.annotations.2022.1.0.nupkg.sha512",
     "C:\\Users\\hadt2\\.nuget\\packages\\jwtcookieauthentication\\2.4.2\\jwtcookieauthentication.2.4.2.nupkg.sha512",
     "C:\\Users\\hadt2\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\hadt2\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -197,7 +198,8 @@
     "C:\\Users\\hadt2\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\hadt2\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\hadt2\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\hadt2\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\hadt2\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\hadt2\\.nuget\\packages\\x.pagedlist\\8.4.3\\x.pagedlist.8.4.3.nupkg.sha512"
   ],
   "logs": [
     {

@@ -7,6 +7,7 @@ using mybooking.repository.DataContext;
 using mybooking.domain.Entities;
 using mybooking.repository;
 using mybooking.repository.Contract;
+using mybooking.services.ApartmentService;
 using Swashbuckle.AspNetCore.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -50,9 +51,12 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     };
 });
 
+builder.Services.AddHttpContextAccessor();
+
 #region Register Dependency Injection
 
 builder.Services.AddScoped(typeof(IBaseRepository<,>), typeof(BaseRepository<,>));
+builder.Services.AddScoped<IAparmentService, ApartmentService>();
 
 #endregion
 

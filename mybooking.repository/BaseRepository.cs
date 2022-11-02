@@ -1,43 +1,80 @@
-﻿using System.Linq.Expressions;
+﻿using System.Collections;
+using System.Linq.Expressions;
+using Microsoft.EntityFrameworkCore;
 using mybooking.repository.Contract;
+using mybooking.repository.DataContext;
+using X.PagedList;
 
 namespace mybooking.repository;
 
-public class BaseRepository<T, TKey> : IBaseRepository<T, TKey> where T : class 
+public class BaseRepository<T, TKey> : IBaseRepository<T, TKey> where T : class
 {
-    
-    public Task InsertAsync(T entity)
+    private readonly AppDbContext _context;
+    private readonly DbSet<T>     _dbSet;
+    public BaseRepository(AppDbContext context)
     {
-        throw new NotImplementedException();
+        _context = context;
+        _dbSet   = context.Set<T>();
     }
 
-    public Task InsertAll(IEnumerable<T> entities)
+    public async Task InsertAsync(T entity)
     {
-        throw new NotImplementedException();
+        await _dbSet.AddAsync(entity);
+        await _context.SaveChangesAsync();
+
     }
 
-    public Task<T> FindById(TKey id)
+    public async Task InsertAll(IEnumerable<T> entities)
     {
-        throw new NotImplementedException();
+        await _dbSet.AddRangeAsync(entities);
+        await _context.SaveChangesAsync();
     }
 
-    public Task<IReadOnlyList<T>> GetAll()
+    public async Task<T?> FindById(TKey id)
     {
-        throw new NotImplementedException();
+        var entity = await _dbSet.FindAsync(id);
+        return entity;
     }
 
-    public Task<IQueryable<T>> FindAsync(Expression<Func<T, bool>> expression, params string[] prop)
+    public async Task<IPagedList<T>> GetAll(int page = 1, int size = 10)
     {
-        throw new NotImplementedException();
+        return await _dbSet.ToPagedListAsync(page, size);
     }
 
-    public Task UpdateAsync(T entity)
+    public async Task<IPagedList<T>> FindAsync(Expression<Func<T, bool>> expression, 
+                                               int page = 1, int size = 2,
+                                               params string[] prop)
     {
-        throw new NotImplementedException();
+        var query = _dbSet.Where(expression);
+        if (prop.Length > 0)
+        {
+            query = prop.Aggregate(query, (current, p) => current.Include(p));
+        }
+
+        return await query.ToPagedListAsync(page, size);
     }
 
-    public Task UpdateAll(IEnumerable<T> entities)
+    public async Task UpdateAsync(T entity)
     {
-        throw new NotImplementedException();
+        _dbSet.Update(entity);
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task UpdateAll(IEnumerable<T> entities)
+    {
+        _dbSet.UpdateRange(entities);
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task HardRemove(T entity)
+    {
+        _dbSet.Remove(entity);
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task HardRemoveAll(IEnumerable<T> entities)
+    {
+        _dbSet.RemoveRange(entities);
+        await _context.SaveChangesAsync();
     }
 }

@@ -13,5 +13,5 @@ public class Apartment : BaseEntity<long>
     public RoomStatus RoomStatus  { get; set; } = RoomStatus.Available;
 
     public virtual RoomClass     RoomClass     { get; set; } = new();
-    public virtual ApartmentType ApartmentType { get; set; }  = new();
+    public virtual ApartmentType ApartmentType { get; set; } = new();
 }

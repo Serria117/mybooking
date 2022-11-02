@@ -159,6 +159,9 @@ namespace mybooking.repository.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint");
 
+                    b.Property<long>("ApartmentTypeId")
+                        .HasColumnType("bigint");
+
                     b.Property<string>("CreatedByUser")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -194,6 +197,8 @@ namespace mybooking.repository.Migrations
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ApartmentTypeId");
 
                     b.HasIndex("RoomClassId");
 
@@ -234,7 +239,7 @@ namespace mybooking.repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ApartmentTypes");
+                    b.ToTable("apartment_type");
                 });
 
             modelBuilder.Entity("mybooking.domain.Entities.AppUser", b =>
@@ -394,11 +399,19 @@ namespace mybooking.repository.Migrations
 
             modelBuilder.Entity("mybooking.domain.Entities.Apartment", b =>
                 {
+                    b.HasOne("mybooking.domain.Entities.ApartmentType", "ApartmentType")
+                        .WithMany()
+                        .HasForeignKey("ApartmentTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("mybooking.domain.Entities.RoomClass", "RoomClass")
                         .WithMany()
                         .HasForeignKey("RoomClassId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("ApartmentType");
 
                     b.Navigation("RoomClass");
                 });

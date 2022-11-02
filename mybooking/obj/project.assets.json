@@ -97,6 +97,19 @@
           }
         }
       },
+      "JetBrains.Annotations/2022.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
       "JWTCookieAuthentication/2.4.2": {
         "type": "package",
         "dependencies": {
@@ -3399,6 +3412,18 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "X.PagedList/8.4.3": {
+        "type": "package",
+        "dependencies": {
+          "JetBrains.Annotations": "2022.1.0"
+        },
+        "compile": {
+          "lib/net6.0/X.PagedList.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/X.PagedList.dll": {}
+        }
+      },
       "mybooking.domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3418,6 +3443,7 @@
         "dependencies": {
           "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
           "Pomelo.EntityFrameworkCore.MySql.Design": "1.1.2",
+          "X.PagedList": "8.4.3",
           "mybooking.domain": "1.0.0"
         },
         "compile": {
@@ -3425,6 +3451,21 @@
         },
         "runtime": {
           "bin/placeholder/mybooking.repository.dll": {}
+        }
+      },
+      "mybooking.services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "X.PagedList": "8.4.3",
+          "mybooking.domain": "1.0.0",
+          "mybooking.repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/mybooking.services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/mybooking.services.dll": {}
         }
       }
     }
@@ -3510,6 +3551,28 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "JetBrains.Annotations/2022.1.0": {
+      "sha512": "ASfpoFJxiRsC9Xc4TWuPM41Zb/gl64xwfMOhnOZ3RnVWGYIZchjpWQV5zshJgoc/ZxVtgjaF7b577lURj7E6ig==",
+      "type": "package",
+      "path": "jetbrains.annotations/2022.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "jetbrains.annotations.2022.1.0.nupkg.sha512",
+        "jetbrains.annotations.nuspec",
+        "lib/net20/JetBrains.Annotations.dll",
+        "lib/net20/JetBrains.Annotations.xml",
+        "lib/netstandard1.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard1.0/JetBrains.Annotations.dll",
+        "lib/netstandard1.0/JetBrains.Annotations.xml",
+        "lib/netstandard2.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard2.0/JetBrains.Annotations.dll",
+        "lib/netstandard2.0/JetBrains.Annotations.xml",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.dll",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.xml"
       ]
     },
     "JWTCookieAuthentication/2.4.2": {
@@ -9569,6 +9632,20 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "X.PagedList/8.4.3": {
+      "sha512": "wVVbgv++0NmOaUFgNOAky+wt4MdAAwn2Roz/+u+jlEX1s/ELIbbnan70Skhk/um6w5NnM5eC4Kux1GAPjzHOeQ==",
+      "type": "package",
+      "path": "x.pagedlist/8.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/X.PagedList.dll",
+        "lib/netstandard2.0/X.PagedList.dll",
+        "lib/netstandard2.1/X.PagedList.dll",
+        "x.pagedlist.8.4.3.nupkg.sha512",
+        "x.pagedlist.nuspec"
+      ]
+    },
     "mybooking.domain/1.0.0": {
       "type": "project",
       "path": "../mybooking.domain/mybooking.domain.csproj",
@@ -9578,6 +9655,11 @@
       "type": "project",
       "path": "../mybooking.repository/mybooking.repository.csproj",
       "msbuildProject": "../mybooking.repository/mybooking.repository.csproj"
+    },
+    "mybooking.services/1.0.0": {
+      "type": "project",
+      "path": "../mybooking.services/mybooking.services.csproj",
+      "msbuildProject": "../mybooking.services/mybooking.services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9598,7 +9680,8 @@
       "Swashbuckle.AspNetCore.Filters >= 7.0.5",
       "System.IdentityModel.Tokens.Jwt >= 6.25.0",
       "mybooking.domain >= 1.0.0",
-      "mybooking.repository >= 1.0.0"
+      "mybooking.repository >= 1.0.0",
+      "mybooking.services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9633,6 +9716,9 @@
             },
             "D:\\Dev\\TeamProject\\mybooking\\mybooking.repository\\mybooking.repository.csproj": {
               "projectPath": "D:\\Dev\\TeamProject\\mybooking\\mybooking.repository\\mybooking.repository.csproj"
+            },
+            "D:\\Dev\\TeamProject\\mybooking\\mybooking.services\\mybooking.services.csproj": {
+              "projectPath": "D:\\Dev\\TeamProject\\mybooking\\mybooking.services\\mybooking.services.csproj"
             }
           }
         }

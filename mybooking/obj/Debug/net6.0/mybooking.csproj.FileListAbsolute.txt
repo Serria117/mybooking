@@ -96,3 +96,7 @@ D:\Dev\TeamProject\mybooking\mybooking\bin\Debug\net6.0\Swashbuckle.AspNetCore.F
 D:\Dev\TeamProject\mybooking\mybooking\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
 D:\Dev\TeamProject\mybooking\mybooking\bin\Debug\net6.0\mybooking.repository.dll
 D:\Dev\TeamProject\mybooking\mybooking\bin\Debug\net6.0\mybooking.repository.pdb
+D:\Dev\TeamProject\mybooking\mybooking\bin\Debug\net6.0\JetBrains.Annotations.dll
+D:\Dev\TeamProject\mybooking\mybooking\bin\Debug\net6.0\X.PagedList.dll
+D:\Dev\TeamProject\mybooking\mybooking\bin\Debug\net6.0\mybooking.services.dll
+D:\Dev\TeamProject\mybooking\mybooking\bin\Debug\net6.0\mybooking.services.pdb

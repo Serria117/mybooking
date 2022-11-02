@@ -1,0 +1,17 @@
+D:\Dev\TeamProject\mybooking\mybooking.services\bin\Debug\net6.0\mybooking.services.deps.json
+D:\Dev\TeamProject\mybooking\mybooking.services\bin\Debug\net6.0\mybooking.services.dll
+D:\Dev\TeamProject\mybooking\mybooking.services\bin\Debug\net6.0\mybooking.services.pdb
+D:\Dev\TeamProject\mybooking\mybooking.services\bin\Debug\net6.0\mybooking.domain.dll
+D:\Dev\TeamProject\mybooking\mybooking.services\bin\Debug\net6.0\mybooking.repository.dll
+D:\Dev\TeamProject\mybooking\mybooking.services\bin\Debug\net6.0\mybooking.domain.pdb
+D:\Dev\TeamProject\mybooking\mybooking.services\bin\Debug\net6.0\mybooking.repository.pdb
+D:\Dev\TeamProject\mybooking\mybooking.services\obj\Debug\net6.0\mybooking.services.csproj.AssemblyReference.cache
+D:\Dev\TeamProject\mybooking\mybooking.services\obj\Debug\net6.0\mybooking.services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\TeamProject\mybooking\mybooking.services\obj\Debug\net6.0\mybooking.services.AssemblyInfoInputs.cache
+D:\Dev\TeamProject\mybooking\mybooking.services\obj\Debug\net6.0\mybooking.services.AssemblyInfo.cs
+D:\Dev\TeamProject\mybooking\mybooking.services\obj\Debug\net6.0\mybooking.services.csproj.CoreCompileInputs.cache
+D:\Dev\TeamProject\mybooking\mybooking.services\obj\Debug\net6.0\mybooking.services.csproj.CopyComplete
+D:\Dev\TeamProject\mybooking\mybooking.services\obj\Debug\net6.0\mybooking.services.dll
+D:\Dev\TeamProject\mybooking\mybooking.services\obj\Debug\net6.0\refint\mybooking.services.dll
+D:\Dev\TeamProject\mybooking\mybooking.services\obj\Debug\net6.0\mybooking.services.pdb
+D:\Dev\TeamProject\mybooking\mybooking.services\obj\Debug\net6.0\ref\mybooking.services.dll
