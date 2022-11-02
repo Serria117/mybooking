@@ -1,5 +1,8 @@
-﻿namespace mybooking.domain.Entities;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
+namespace mybooking.domain.Entities;
+
+[Table("apartment_type")]
 public class ApartmentType : BaseEntity<long>
 {
     public string TypeName    { get; set; } = string.Empty;

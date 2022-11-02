@@ -1,0 +1,15 @@
+D:\Dev\TeamProject\mybooking\mybooking.repository\bin\Debug\net6.0\mybooking.repository.deps.json
+D:\Dev\TeamProject\mybooking\mybooking.repository\bin\Debug\net6.0\mybooking.repository.dll
+D:\Dev\TeamProject\mybooking\mybooking.repository\bin\Debug\net6.0\mybooking.repository.pdb
+D:\Dev\TeamProject\mybooking\mybooking.repository\bin\Debug\net6.0\mybooking.domain.dll
+D:\Dev\TeamProject\mybooking\mybooking.repository\bin\Debug\net6.0\mybooking.domain.pdb
+D:\Dev\TeamProject\mybooking\mybooking.repository\obj\Debug\net6.0\mybooking.repository.csproj.AssemblyReference.cache
+D:\Dev\TeamProject\mybooking\mybooking.repository\obj\Debug\net6.0\mybooking.repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\TeamProject\mybooking\mybooking.repository\obj\Debug\net6.0\mybooking.repository.AssemblyInfoInputs.cache
+D:\Dev\TeamProject\mybooking\mybooking.repository\obj\Debug\net6.0\mybooking.repository.AssemblyInfo.cs
+D:\Dev\TeamProject\mybooking\mybooking.repository\obj\Debug\net6.0\mybooking.repository.csproj.CoreCompileInputs.cache
+D:\Dev\TeamProject\mybooking\mybooking.repository\obj\Debug\net6.0\mybooking.repository.csproj.CopyComplete
+D:\Dev\TeamProject\mybooking\mybooking.repository\obj\Debug\net6.0\mybooking.repository.dll
+D:\Dev\TeamProject\mybooking\mybooking.repository\obj\Debug\net6.0\refint\mybooking.repository.dll
+D:\Dev\TeamProject\mybooking\mybooking.repository\obj\Debug\net6.0\mybooking.repository.pdb
+D:\Dev\TeamProject\mybooking\mybooking.repository\obj\Debug\net6.0\ref\mybooking.repository.dll

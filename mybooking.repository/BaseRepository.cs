@@ -5,6 +5,7 @@ namespace mybooking.repository;
 
 public class BaseRepository<T, TKey> : IBaseRepository<T, TKey> where T : class 
 {
+    
     public Task InsertAsync(T entity)
     {
         throw new NotImplementedException();

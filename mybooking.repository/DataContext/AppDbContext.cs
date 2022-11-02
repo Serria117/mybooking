@@ -1,9 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using mybooking.domain.Entities;
 
-namespace mybooking.DataContext;
+namespace mybooking.repository.DataContext;
 
 public class AppDbContext : IdentityDbContext<AppUser>
 {

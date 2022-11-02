@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using mybooking.DataContext;
+using mybooking.repository.DataContext;
 using mybooking.domain.Entities;
 using mybooking.repository;
 using mybooking.repository.Contract;

@@ -3415,6 +3415,11 @@
       "mybooking.repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
+          "Pomelo.EntityFrameworkCore.MySql.Design": "1.1.2",
+          "mybooking.domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/mybooking.repository.dll": {}
         },

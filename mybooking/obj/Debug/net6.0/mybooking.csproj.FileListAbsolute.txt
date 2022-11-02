@@ -90,3 +90,9 @@ D:\Dev\TeamProject\mybooking\mybooking\obj\Debug\net6.0\refint\mybooking.dll
 D:\Dev\TeamProject\mybooking\mybooking\obj\Debug\net6.0\mybooking.pdb
 D:\Dev\TeamProject\mybooking\mybooking\obj\Debug\net6.0\mybooking.genruntimeconfig.cache
 D:\Dev\TeamProject\mybooking\mybooking\obj\Debug\net6.0\ref\mybooking.dll
+D:\Dev\TeamProject\mybooking\mybooking\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Dev\TeamProject\mybooking\mybooking\bin\Debug\net6.0\Scrutor.dll
+D:\Dev\TeamProject\mybooking\mybooking\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+D:\Dev\TeamProject\mybooking\mybooking\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+D:\Dev\TeamProject\mybooking\mybooking\bin\Debug\net6.0\mybooking.repository.dll
+D:\Dev\TeamProject\mybooking\mybooking\bin\Debug\net6.0\mybooking.repository.pdb
